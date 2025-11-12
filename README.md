@@ -117,3 +117,41 @@ Open Serial Monitor → check for “Web server started”
 
 A ready-to-use mobile app (in app.zip) can control the car via Wi-Fi.
 Just connect your phone to ESP8266_Car Wi-Fi and open the app.
+# 🏎️ ESP8266 Wi-Fi Car Controller
+
+[![Platform: Arduino](https://img.shields.io/badge/Platform-Arduino-blue.svg)](https://www.arduino.cc/)
+[![Board: ESP8266](https://img.shields.io/badge/Board-ESP8266-orange.svg)](https://arduino-esp8266.readthedocs.io/)
+[![IoT](https://img.shields.io/badge/Category-IoT-green.svg)](https://github.com/topics/iot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![App](https://img.shields.io/badge/App-Flutter-blueviolet.svg)](https://github.com/YourUsername/YourAppRepo)
+
+A Wi-Fi-controlled RC car using an **ESP8266 (NodeMCU)** and an **L298N motor driver**.  
+The ESP8266 hosts a small HTTP server, and a **mobile app** (included as `app.zip`) sends commands to move, steer, and control speed — completely offline.
+
+---
+
+## ⚙️ Features
+✅ Drive wirelessly via Wi-Fi  
+✅ Control: **Forward / Backward / Left / Right / Stop**  
+✅ Adjustable speed presets: **100 / 150 / 200 / 255**  
+✅ Servo steering: **0° – 180°**  
+✅ Works as its own access point  
+- **SSID:** `ESP8266_Car`  
+- **Password:** `12345678`  
+- **IP Address:** `192.168.4.1`
+
+---
+
+## 🔗 HTTP Endpoints
+
+| Command | Example |
+|----------|----------|
+| Move Forward | `/forward` |
+| Move Backward | `/backward` |
+| Turn Left | `/left` |
+| Turn Right | `/right` |
+| Stop | `/stop` |
+| Set Speed | `/speed?value=200` |
+| Set Servo Angle | `/servo?angle=90` |
+
+Example calls:
