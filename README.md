@@ -52,7 +52,7 @@ http://192.168.4.1/servo?angle=45
 | `app.zip` | Mobile controller app (Flutter) |
 
 📱 **Flutter App Repository:**  
-👉 [View the App Repository](https://github.com/YourUsername/YourAppRepo)
+👉 [View the App Repository](https://github.com/rajkumarsharma316/ESP-Controller-app)
 
 ---
 
