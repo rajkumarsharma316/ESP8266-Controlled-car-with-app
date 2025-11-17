@@ -99,7 +99,7 @@ Web server started
 
 ## 🧑‍💻 Author
 
-Created by **[Your Name]**  
+Created by **Raj Kumar Sharma**  
 ESP8266 IoT Car Controller · MIT License © 2025  
 
 ---
